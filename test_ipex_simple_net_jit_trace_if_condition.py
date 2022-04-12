@@ -3,6 +3,7 @@ import torch
 import torchdynamo
 import intel_extension_for_pytorch as ipex
 
+# torchdynamo.config.debug = True
 class SimpleNet(torch.nn.Module):
     def __init__(self):
         super(SimpleNet, self).__init__()
